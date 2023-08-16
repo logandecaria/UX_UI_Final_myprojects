@@ -104,3 +104,40 @@ padding-left: 60px;
     justify-content: space-around;
    }
 }
+
+
+
+@media screen and (min-width: 1250px) {
+
+    .kitchenProject{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    
+    #kitchenImage {
+        grid-column: 1;
+        padding: 10px;
+    }
+    
+    #paint4 {
+        grid-column: 2;
+        padding: 10px;
+    }
+    
+    #paint5 {
+        grid-column: 3;
+        padding: 10px;
+    }
+    
+    #paint6 {
+        grid-column: 4;
+        padding: 10px;
+    }
+    }
+    
+    @media screen and (min-width: 200){
+       .kitchenProject {
+        display: flex;
+        justify-content: space-around;
+       }
+    }
