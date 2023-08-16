@@ -69,3 +69,38 @@ background: var(--ruby-red, #861B48);
 padding: 10px;
 padding-left: 60px;
 }
+
+@media screen and (min-width: 1250px) {
+
+.babyNurseryHeader{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+#nurseMe {
+    grid-column: 1;
+    padding: 10px;
+}
+
+#pinkyPoo {
+    grid-column: 2;
+    padding: 10px;
+}
+
+#greenPlant {
+    grid-column: 3;
+    padding: 10px;
+}
+
+#greyy {
+    grid-column: 4;
+    padding: 10px;
+}
+}
+
+@media screen and (min-width: 200){
+   .babyNurseryHeader {
+    display: flex;
+    justify-content: space-around;
+   }
+}
