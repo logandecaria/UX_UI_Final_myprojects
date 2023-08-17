@@ -44,8 +44,8 @@ li {
     color: #000;
 }
 
-.babyNurseryHeader a:hover {
-    box-shadow: #000;
+#nurseMe a:hover {
+    box-shadow: 10px 10px 5px lightblue;
 }
 
 *,  *::before, *::after {     margin: 0;     padding: 0;     box-sizing: border-box; }
