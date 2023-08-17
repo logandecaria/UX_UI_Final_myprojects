@@ -44,7 +44,7 @@ li {
     color: #000;
 }
 
-#nurseMe a:hover {
+#nurseMe img:hover {
     box-shadow: 10px 10px 5px lightblue;
 }
 
